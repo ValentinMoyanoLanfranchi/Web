@@ -1,0 +1,28 @@
+{
+  "name": "tpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest --testTimeout=10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://labsys.frc.utn.edu.ar/gitlab/desarrollo-de-software1/tpis-2023/3k7-grupo-8/tpi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aa-sqlite": "^1.0.29",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
